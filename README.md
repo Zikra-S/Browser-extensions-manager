@@ -21,8 +21,9 @@ Browse extensions, filter them by status, enable or disable them, and remove ext
 
 ##  Preview
 
-![Browser Extensions Manager Preview](./preview.png)
+## Preview
 
+![Browser Extensions Manager Preview](./Preview.jpg)
 ## 🛠️ Built With
 
 - [React](https://react.dev/)
