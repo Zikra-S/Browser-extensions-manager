@@ -1,32 +1,51 @@
-# React + TypeScript + Vite
+# 🧩 Browser Extensions Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A sleek and responsive browser extensions manager built with React, TypeScript, and Tailwind CSS.
 
-Currently, two official plugins are available:
+Browse extensions, filter them by status, enable or disable them, and remove extensions from your collection — all through a clean, modern interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+-  Display browser extensions in a clean card-based layout
+-  Filter extensions by:
+  - All
+  - Active
+  - Inactive
+-  Enable and disable extensions with toggle switches
+-  Remove extensions from the list
+-  Dark / Light mode
+-  Responsive interface
+-  Modern UI built with Tailwind CSS
+-  Component-based architecture with React
+-  Fully typed with TypeScript
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Preview
 
-## Expanding the Oxlint configuration
+![Browser Extensions Manager Preview](./preview.png)
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🛠️ Built With
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vite.dev/)
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 📁 Project Structure
+
+```text
+src/
+├── assets/
+│   └── Images/
+│
+├── Components/
+│   ├── ExtensionCard.tsx
+│   ├── FilterTabs.tsx
+│   └── Header.tsx
+│
+├── Data/
+│   └── Extensions.ts
+│
+├── App.tsx
+├── index.css
+├── main.tsx
+└── ...
