@@ -1,10 +1,10 @@
-# 🧩 Browser Extensions Manager
+#  Browser Extensions Manager
 
 A sleek and responsive browser extensions manager built with React, TypeScript, and Tailwind CSS.
 
 Browse extensions, filter them by status, enable or disable them, and remove extensions from your collection — all through a clean, modern interface.
 
-## ✨ Features
+##  Features
 
 -  Display browser extensions in a clean card-based layout
 -  Filter extensions by:
